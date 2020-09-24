@@ -7,6 +7,12 @@
 #include "include/secp256k1.h"
 #include "include/secp256k1_preallocated.h"
 
+#if !defined(ECMULT_GEN_PREC_BITS)
+#include "libsecp256k1-config.h"
+#endif
+#define USE_BASIC_CONFIG 1
+#include "basic-config.h"
+
 #include "assumptions.h"
 #include "util.h"
 #include "num_impl.h"
