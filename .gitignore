@@ -53,3 +53,4 @@ src/stamp-h1
 libsecp256k1.pc
 build_x64/
 build_Win32/
+build-linux-x64/
