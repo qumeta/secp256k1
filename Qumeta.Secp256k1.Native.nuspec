@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Qumeta.Secp256k1.Native</id>
-    <version>0.1</version>
+    <version>0.2</version>
     <authors>qumeta</authors>
     <owners>qumeta</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,8 +12,8 @@
   </metadata>
   <files>
     <file src="build_x64/Release/secp256k1.dll" target="runtimes/win-x64/native/secp256k1.dll" />
+    <file src="build/libsecp256k1.so" target="runtimes/linux-x64/native/libsecp256k1.so" />
     <!--
-    <file src="lib/linux-x64/libsecp256k1.so" target="runtimes/linux-x64/native/libsecp256k1.so" />
     <file src="lib/osx-x64/libsecp256k1.dylib" target="runtimes/osx-x64/native/libsecp256k1.dylib" />
     <file src="lib/win-x86/secp256k1.dll" target="runtimes/win-x86/native/secp256k1.dll" />
     -->

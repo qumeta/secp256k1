@@ -50,8 +50,8 @@ else()
 endif()
 
 
-add_executable(gen_context src/gen_context.c)
-target_include_directories(gen_context PRIVATE ${CMAKE_SOURCE_DIR})
+#add_executable(gen_context src/gen_context.c)
+#target_include_directories(gen_context PRIVATE ${CMAKE_SOURCE_DIR})
 
 #add_custom_target(ecmult_static_context gen_context WORKING_DIRECTORY ${CMAKE_SOURCE_DIR})
 
